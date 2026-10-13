@@ -16,3 +16,6 @@ The first submission after going live sends an activation email from FormSubmit 
 
 ## Hosting
 Any static host works. For GitHub Pages: Settings → Pages → deploy from the `main` branch, root folder.
+
+## Photos
+Section photos are served from Unsplash (free to use under the Unsplash License). Swap the `images.unsplash.com` URLs in `index.html` for SolarVeil's own install photos when they're available.
