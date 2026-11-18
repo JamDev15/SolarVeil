@@ -24,4 +24,4 @@ Section photos are served from Unsplash (free to use under the Unsplash License)
 - `/` home page (`index.html`)
 - `/privacy-policy` and `/terms` legal pages (styles in `assets/legal.css`)
 - `googlea22f10d275b17c99.html` Google Search Console verification file. Keep it in the root, or Search Console will lose verification.
-- `vercel.json` turns on clean URLs, so pages load without `.html`.
+- `vercel.json` maps `/privacy-policy` and `/terms` to their files. Clean URLs stay off so the Google verification file is served without a redirect.
