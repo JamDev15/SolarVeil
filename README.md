@@ -19,3 +19,9 @@ Any static host works. For GitHub Pages: Settings → Pages → deploy from the 
 
 ## Photos
 Section photos are served from Unsplash (free to use under the Unsplash License). Swap the `images.unsplash.com` URLs in `index.html` for SolarVeil's own install photos when they're available.
+
+## Pages
+- `/` home page (`index.html`)
+- `/privacy-policy` and `/terms` legal pages (styles in `assets/legal.css`)
+- `googlea22f10d275b17c99.html` Google Search Console verification file. Keep it in the root, or Search Console will lose verification.
+- `vercel.json` turns on clean URLs, so pages load without `.html`.
